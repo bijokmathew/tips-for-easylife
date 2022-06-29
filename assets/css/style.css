@@ -1,3 +1,58 @@
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sansita&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: open Sans, sans-serif;
+    font-weight: 300;
+    color: #312d2d;
+}
+
+/* Headings and Logo style */
+h1,
+h2 {
+    font-family: sansita, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #3F4E4F;
+}
+
+#logo {
+    float: left;
+    font-size: 260%;
+    margin-left: 28px;
+}
+
+/* navigation menu style */
+#menu {
+    letter-spacing: 3px;
+    font-size: 107%;
+    float: right;
+    list-style: none;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: blue;
+}
+
+#currpage {
+    color: blue;
 }
