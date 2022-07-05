@@ -21,9 +21,14 @@ body {
     color: black;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Headings and Logo style */
 h1,
-h2 {
+h2,
+h3 {
     font-family: sansita, sans-serif;
     text-transform: capitalize;
     letter-spacing: 5px;
@@ -106,20 +111,80 @@ h2 {
 
 /* About session style */
 
-#abt-session{
+#abt-session {
     width: 100%;
     height: 300px;
     text-align: center;
     margin-top: 30px;
 }
-#abt-left{
+
+#abt-left {
     width: 40%;
     margin-left: 30px;
     text-align: left;
     vertical-align: top;
     display: inline-block;
 }
-#abt-right{
+
+#abt-right {
     width: 40%;
     display: inline-block;
+}
+
+/* Category  session styles */
+#cat-session {
+    width: 100%;
+    height: 975px;
+    margin-top: 30px;
+}
+
+#cat-session p {
+    padding: 0 20px 40px 20px;
+    color: black;
+}
+
+#cat-header {
+    height: 75px;
+    line-height: 75px;
+    background-color: blanchedalmond;
+}
+
+.cat-sub-head {
+    color: #F9F3EE;
+    margin-left: 28px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+#cat-tech {
+    width: 100%;
+    display: block;
+    height: 300px;
+    text-align: center;
+    background: url(../images/cat_tech_img.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.cat-hack-box {
+    width: 20%;
+    margin: 2rem 1rem 3rem 0;
+    display: inline-block;
+    background-color: beige;
+    box-shadow: 5px 5px 2px hsl(60, 2%, 12%);
+}
+#cat-health {
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    background: url(../images/cat_health_img.jpg) no-repeat center center;
+    background-size: cover;
+}
+#cat-money {
+    width: 100%;
+    display: block;
+    height: 300px;
+    text-align: center;
+    background: url(../images/cat_money_img.jpg) no-repeat center center;
+    background-size: cover;
 }
