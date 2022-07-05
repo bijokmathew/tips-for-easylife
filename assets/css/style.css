@@ -13,6 +13,14 @@ body {
     background-color: #F9F3EE;
 }
 
+.red-text {
+    color: red;
+}
+
+.black-text {
+    color: black;
+}
+
 /* Headings and Logo style */
 h1,
 h2 {
@@ -88,15 +96,30 @@ h2 {
 }
 
 #hero-cover-text h2 {
-    font-size:380% ;
+    font-size: 380%;
 }
-#hero-cover-text p,h2 {
+
+#hero-cover-text p,
+h2 {
     margin-top: 30px;
 }
 
-.red-text {
-    color: red;
+/* About session style */
+
+#abt-session{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 30px;
 }
-.black-text{
-    color: black;
+#abt-left{
+    width: 40%;
+    margin-left: 30px;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+}
+#abt-right{
+    width: 40%;
+    display: inline-block;
 }
