@@ -109,9 +109,16 @@ h2 {
     margin-top: 30px;
 }
 
-/* About session style */
+.sub-header {
+    height: 75px;
+    line-height: 75px;
+    font-weight: 280;
+    background-color: blanchedalmond;
+}
 
-#abt-session {
+/* About section style */
+
+#abt-section {
     width: 100%;
     height: 300px;
     text-align: center;
@@ -131,28 +138,24 @@ h2 {
     display: inline-block;
 }
 
-/* Category  session styles */
-#cat-session {
+/* Category  section styles */
+#cat-section {
     width: 100%;
     height: 975px;
     margin-top: 30px;
 }
 
-#cat-session p {
+#cat-section p {
     padding: 0 20px 40px 20px;
     color: black;
 }
 
-#cat-header {
-    height: 75px;
-    line-height: 75px;
-    background-color: blanchedalmond;
-}
-
 .cat-sub-head {
-    color: #F9F3EE;
+    color: #fff;
     margin-left: 28px;
-    margin-top: 5px;
+    padding-top: 10px;
+    font-weight: 260;
+    margin-top: 2px;
     text-align: left;
 }
 
@@ -172,6 +175,7 @@ h2 {
     background-color: beige;
     box-shadow: 5px 5px 2px hsl(60, 2%, 12%);
 }
+
 #cat-health {
     width: 100%;
     height: 300px;
@@ -180,11 +184,64 @@ h2 {
     background: url(../images/cat_health_img.jpg) no-repeat center center;
     background-size: cover;
 }
+
 #cat-money {
     width: 100%;
     display: block;
-    height: 300px;
+    height: 350px;
     text-align: center;
     background: url(../images/cat_money_img.jpg) no-repeat center center;
     background-size: cover;
 }
+
+/* Life Hack submit form style */
+
+#form-section {
+    margin-top: 0px;
+}
+
+form {
+    display: block;
+}
+
+.form-section {
+    height: 750px;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.submit-form {
+    width: 500px;
+    padding: 30px;
+    background-color: beige;
+    margin-top: 40px;
+    position: absolute;
+    float: left;
+    left: 10%;
+    box-shadow: 10px 10px 5px #d0d2d6;
+}
+
+label {
+    margin: 15px 10px 15px 0;
+}
+
+.text-input {
+    height: 25px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #1a1a1a;
+}
+
+/* button style*/
+.btn-submit {
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 2px;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgba(80, 105, 105, 0.648);
+    display: block;
+}
+

@@ -44,7 +44,7 @@
         </div>
     </section>
     <!-- About session -->
-    <section id="abt-session">
+    <section id="abt-section">
         <div id="abt-left">
             <h2>About Us</h2>
             <br>
@@ -64,51 +64,51 @@
         </div>
     </section>
     <!-- Category session -->
-    <section id="cat-session">
-        <div id="cat-header" class="text-center">
+    <section id="cat-section">
+        <div class="sub-header text-center">
             <h2>Categories</h2>
         </div>
         <div id="cat-tech">
-            <h2 class="cat-sub-head">Techenology</h3>
-                <div id="cat-hack-1" class="cat-hack-box">
-                    <br>
-                    <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
-                    <br>
-                    <p class="text-center">
-                        If you play Youtube videos through Safari you can still listen to them with your phone's screen
-                        off.
-                    </p>
-                </div>
-                <div id="cat-hack-2" class="cat-hack-box">
-                    <br>
-                    <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
-                    <br>
-                    <p class="text-center">
-                        If you play Youtube videos through Safari you can still listen to them with your phone's screen
-                        off.
-                    </p>
-                </div>
-                <div id="cat-hack-3" class="cat-hack-box">
-                    <br>
-                    <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
-                    <br>
-                    <p class="text-center">
-                        If you play Youtube videos through Safari you can still listen to them with your phone's screen
-                        off.
-                    </p>
-                </div>
-                <div id="cat-hack-4" class="cat-hack-box">
-                    <br>
-                    <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
-                    <br>
-                    <p class="text-center">
-                        If you play Youtube videos through Safari you can still listen to them with your phone's screen
-                        off.
-                    </p>
-                </div>
+            <h2 class="cat-sub-head">Technology</h2>
+            <div id="cat-hack-1" class="cat-hack-box">
+                <br>
+                <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
+                <br>
+                <p class="text-center">
+                    If you play Youtube videos through Safari you can still listen to them with your phone's screen
+                    off.
+                </p>
+            </div>
+            <div id="cat-hack-2" class="cat-hack-box">
+                <br>
+                <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
+                <br>
+                <p class="text-center">
+                    If you play Youtube videos through Safari you can still listen to them with your phone's screen
+                    off.
+                </p>
+            </div>
+            <div id="cat-hack-3" class="cat-hack-box">
+                <br>
+                <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
+                <br>
+                <p class="text-center">
+                    If you play Youtube videos through Safari you can still listen to them with your phone's screen
+                    off.
+                </p>
+            </div>
+            <div id="cat-hack-4" class="cat-hack-box">
+                <br>
+                <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
+                <br>
+                <p class="text-center">
+                    If you play Youtube videos through Safari you can still listen to them with your phone's screen
+                    off.
+                </p>
+            </div>
         </div>
         <div id="cat-health">
-            <h3 class="cat-sub-head">Health</h3>
+            <h2 class="cat-sub-head">Health</h2>
             <div id="cat-hack-1" class="cat-hack-box">
                 <br>
                 <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
@@ -147,7 +147,7 @@
             </div>
         </div>
         <div id="cat-money">
-            <h3 class="cat-sub-head">Money Savers</h3>
+            <h2 class="cat-sub-head">Money Savers</h2>
             <div id="cat-hack-1" class="cat-hack-box">
                 <br>
                 <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
@@ -186,8 +186,34 @@
             </div>
         </div>
     </section>
+    <section id="form-section">
+        <div class="sub-header text-center">
+            <h2>Submit Your Life Hacks!</h2>
+        </div>
+        <div>
+            <form action="https://formdump.codeinstitute.net" method="post" class="submit-form">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first-name" class="text-input" required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last-name" class="text-input" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email-address" class="text-input" required>
+                <p>Please select the category for the life hack submission</p>
+                <input type="radio" id="tech-radio" name="subm-cat" value="technology" checked required>
+                <label for="tech-radio">Technology</label>
+                <input type="radio" id="health-radio" name="subm-cat" value="health" required>
+                <label for="health-radio">Health</label>
+                <input type="radio" id="money-radio" name="subm-cat" value="money-saver" required>
+                <label for="health-radio">Money Saver</label>
+                <br><br>
+                <label for="desc">Life Hack description</label>
+                <br>
+                <textarea name="hack-desc" id="desc" cols="67" rows="10"></textarea>
+                <input class="btn-submit" type="submit" value="Submit Hack!">
+            </form>
+        </div>
+    </section>
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 </body>
-<footer>Footer</footer>
 
 </html>
