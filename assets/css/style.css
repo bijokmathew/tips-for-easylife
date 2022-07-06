@@ -217,7 +217,6 @@ form {
     background-color: beige;
     margin-top: 40px;
     position: relative;
-    
     left: 10%;
     box-shadow: 10px 10px 5px #d0d2d6;
 }
@@ -232,6 +231,9 @@ label {
     margin: 5px 0 20px 0;
     border: 1px solid #1a1a1a;
 }
+.text-input:hover{
+    border-color: #f16c6b;
+}
 
 /* button style*/
 .btn-submit {
@@ -244,4 +246,30 @@ label {
     background-color: rgba(80, 105, 105, 0.648);
     display: block;
 }
+.btn-submit:hover{
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+/* footer style*/
+footer {
+    display: block;
+    height: 150px;
+    line-height: 150px;
+}
 
+.footer-social-links {
+    text-align: center;
+}
+
+.footer-social-links li {
+    display: inline;
+    padding: 5%;
+    margin: 1%;
+    font-weight: 100%;
+    text-align: center;
+    font-size: 150%;
+}
+
+.footer-social-links a {
+    color: #1a1a1a;
+}
