@@ -216,8 +216,8 @@ form {
     padding: 30px;
     background-color: beige;
     margin-top: 40px;
-    position: absolute;
-    float: left;
+    position: relative;
+    
     left: 10%;
     box-shadow: 10px 10px 5px #d0d2d6;
 }
