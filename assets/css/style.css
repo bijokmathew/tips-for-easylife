@@ -231,7 +231,8 @@ label {
     margin: 5px 0 20px 0;
     border: 1px solid #1a1a1a;
 }
-.text-input:hover{
+
+.text-input:hover {
     border-color: #f16c6b;
 }
 
@@ -246,10 +247,12 @@ label {
     background-color: rgba(80, 105, 105, 0.648);
     display: block;
 }
-.btn-submit:hover{
+
+.btn-submit:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
 /* footer style*/
 footer {
     display: block;
@@ -272,4 +275,32 @@ footer {
 
 .footer-social-links a {
     color: #1a1a1a;
+}
+
+/* media query */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #abt-sectiogn{
+        height: 375px;
+    }
+    #cat-section{
+        height: 1800px;
+    }
+    #cat-tech {
+        height: 600px;
+    }
+    .cat-hack-box {
+        width: 30%;
+        margin: 2rem 2rem 1rem 2rem;
+        display: inline-block;
+        background-color: beige;
+        box-shadow: 5px 5px 2px hsl(60, 2%, 12%);
+    }
+    #cat-health{
+        height: 600px;
+    }
+    #cat-money{
+        height: 600px;
+    }
 }
