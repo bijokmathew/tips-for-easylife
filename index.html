@@ -150,7 +150,7 @@
             <h2 class="cat-sub-head">Money Savers</h2>
             <div id="cat-hack-1" class="cat-hack-box">
                 <br>
-                <h3 class="text-center red-text"><i class="fab fa-pinterest"></i></h3>
+                <h3 class="text-center red-text">  <i class="fab fa-pinterest"></i></h3>
                 <br>
                 <p class="text-center">
                     If you play Youtube videos through Safari you can still listen to them with your phone's screen
@@ -198,12 +198,20 @@
             <label for="email">Email</label>
             <input type="text" id="email" name="email-address" class="text-input" required>
             <p>Please select the category for the life hack submission</p>
-            <input type="radio" id="tech-radio" name="subm-cat" value="technology" checked required>
-            <label for="tech-radio">Technology</label>
-            <input type="radio" id="health-radio" name="subm-cat" value="health" required>
-            <label for="health-radio">Health</label>
-            <input type="radio" id="money-radio" name="subm-cat" value="money-saver" required>
-            <label for="health-radio">Money Saver</label>
+            <br>
+            <div>
+                <input type="radio" id="tech-radio" name="subm-cat" value="technology" checked required>
+                <label for="tech-radio">Technology</label>
+            </div>
+            <div>
+                <input type="radio" id="health-radio" name="subm-cat" value="health" required>
+                <label for="health-radio">Health</label>
+            </div>
+            <div>
+                <input type="radio" id="money-radio" name="subm-cat" value="money-saver" required>
+                <label for="health-radio">Money Saver</label>
+            </div>
+            <br>
             <label for="desc">Life Hack description</label>
             <textarea name="hack-desc" id="desc" cols="67" rows="10"></textarea>
             <input class="btn-submit" type="submit" value="Submit Hack!">

@@ -348,4 +348,7 @@ footer {
     #cat-money{
         height: 900px;
     }
+    .submit-form{
+        width: 80%;
+    }
 }
