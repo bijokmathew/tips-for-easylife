@@ -84,7 +84,7 @@ h3 {
 /* hero image cover text style */
 #hero-cover-text {
     background-color: rgba(51, 153, 138, 0.1);
-    width: 500px;
+    width: 32%;
     height: 320px;
     text-align: center;
     padding: 30px 20px;
@@ -212,7 +212,7 @@ form {
 }
 
 .submit-form {
-    width: 500px;
+    width: 36%;
     padding: 30px;
     background-color: beige;
     margin-top: 40px;
@@ -231,7 +231,9 @@ label {
     margin: 5px 0 20px 0;
     border: 1px solid #1a1a1a;
 }
-
+textarea{
+    width: 100%;
+}
 .text-input:hover {
     border-color: #f16c6b;
 }
@@ -305,6 +307,17 @@ footer {
     }
 }
 /* For medium screens sizes from 950px wide and down */
+@media screen and (max-width:950px) {
+    
+    #hero-cover-text p {
+        font-size: 110%;
+    }
+    
+    #hero-cover-text h2 {
+        font-size: 300%;
+    }
+}
+
 @media screen and (max-width: 800px){
     #menu{
         clear: left;
@@ -312,13 +325,9 @@ footer {
         margin-left: 30px; 
         margin-bottom: 20px;
         line-height: 25px;
-    }
-
-    #cover-text{
-        left:0px;
-    }
+    }  
     #abt-sectiogn{
-        height: 675px;
+        height: 900px;
     }
     #cat-section{
         height: 2700px;
