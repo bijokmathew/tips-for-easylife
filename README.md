@@ -61,6 +61,9 @@ A live version of the project can be found here -
       - [Hack submission Section](#hack-submission-section)
       - [Footer Section](#footer-section)
       - [Form-ack page](#form-ack-page)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Technologies used](#technologies-used)
+  - [Testing](#testing)
      
 ## UX
 
@@ -202,8 +205,35 @@ About Us - Image
 
 #### Form-ack page
 
-  - This site contains a message when the form has been used.
+  - This site contains a message when the user submit their hack.
   - The purpose of this page to give an acknowledgement to the user .
 
 ![Form-dump page](/assets/images/readme-images/form-ack-page.jpg)
+
+### Features Left to Implement
+
+- Later versions of this projects will include more categories .
+- In future versions, category section design will change in order to include more life hacks in different categories.
+
+[Back to top](#Easy-Life-Tips)
+
+## Technologies used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- JavaScript - Used for the collapsible sections in both the smaller Nav bar and the Hacks section.
+- Font Awesome - Used to provide in the Hacks section and also in the Footer.
+- Chrome Dev Tools - Used to check my work periodically, debug my code when needed and also test the responsiveness of my website.
+- GitHub - Used to store my code after pushing from Gitpod.
+- GitPod - Used as a development environment.
+- Git - Used for version control of my code.
+- Sketch - Used to create the wireframes for the project.
+- Google Fonts - Used to style my website fonts.
+- W3C Markup Validation Service - Used to validate all of my HTML code.
+- W3C CSS Validation Service - Used to validate all of my CSS code.
+- Color Contrast Accessibility Validator - Used to check my website colours had enough contrast for accessibility purposes.
+- Optimizilla Image Compressor - Used to compress the images.
+- Dirty Markup Formatter - Used to standardise and format my HTML and CSS code.
+
+## Testing 
 
