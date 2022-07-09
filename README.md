@@ -63,7 +63,7 @@ A live version of the project can be found here -
       - [Form-ack page](#form-ack-page)
     - [Features Left to Implement](#features-left-to-implement)
   - [Technologies used](#technologies-used)
-  - [Testing](#testing)
+  - [UX Stories Testing](#ux-stories-testing)
      
 ## UX
 
@@ -144,6 +144,8 @@ The [Google Font Open Sans]('https://fonts.googleapis.com/css2?family=Open+Sans&
 
 Images has been chosen in accordance to colour and content. The purpose of the website is to give a friendly look and express quality. Images has been sized in order to match design.
 
+[Back to top](#Easy-Life-Tips)
+
 ## Features 
 
 Tips For Easy Life website is a single page website that consists of these sections:
@@ -181,6 +183,8 @@ In order to make navigation easier between the sections the navigation bar is fi
 About Us - Image
 
 ![About us Section part 1](/assets/images/readme-images/about-us-section.jpg)
+
+[Back to top](#Easy-Life-Tips)
 
 #### Category Section
 
@@ -235,5 +239,36 @@ About Us - Image
 - Optimizilla Image Compressor - Used to compress the images.
 - Dirty Markup Formatter - Used to standardise and format my HTML and CSS code.
 
-## Testing 
+## UX Stories Testing 
 
+Below are website images for reference with the UX Stories Testing.
+
+![alt text](../assets/images/readme-images/header-section.png)
+![alt text](../assets/images/readme-images/about-section.png)
+![alt text](../assets/images/readme-images/catedory-section.png)
+![alt text](../assets/images/readme-images/footer.png)
+
+1. As a new visitor, I want to browse all the information available to see.
+
+    - The user can navigate to the 'Category' section of the page.
+    - The user can see all of the available categories of Life Hack on the website.
+
+2. As a new user, I want to know what life hacks are.
+
+    - The user can navigate to website.
+    - On the landing page as well 'About us' section has a description of what a Life Hack is and the scope of them.
+
+
+3. As a repeat visitor, I want to see what content is new.
+
+    - The user can navigate to the 'Category' section of the page.
+    - The user can scroll over all relvant categories to check the information inside.
+    - In the future I would like to add an option to sort the hacks by update date, popularity and other criteria.
+
+
+4. As a repeat visitor, I want to submit a hack I have.
+
+    - The user can navigate to the 'Submit Hack' section of the page.
+    - The user can select the category of his hack and fill out the form to enter all of their information.
+    - The form will prompt the user if any fields are left blank or are formatted incorrectly.
+    - After submition user will get an acknowledgement  
