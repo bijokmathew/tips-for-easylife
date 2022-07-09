@@ -64,6 +64,7 @@ A live version of the project can be found here -
     - [Features Left to Implement](#features-left-to-implement)
   - [Technologies used](#technologies-used)
   - [UX Stories Testing](#ux-stories-testing)
+- [Testing and Code Validation](#testing-and-code-validation)
      
 ## UX
 
@@ -274,4 +275,27 @@ Below are website images for reference with the UX Stories Testing.
     - The user can navigate to the 'Submit Hack' section of the page.
     - The user can select the category of his hack and fill out the form to enter all of their information.
     - The form will prompt the user if any fields are left blank or are formatted incorrectly.
-    - After submition user will get an acknowledgement  
+    - After submition user will get an acknowledgement
+   
+5. As a user, the website should work for samll screen devises also
+   - All the layout and images in the website are clearly visible to the user    
+   - Depends on the screen diamensions, website layout design of category, about sections will change
+  
+# Testing and Code Validation
+
+At each stage of the wesite development various types testing was executed to find the issues by using using Chrom Dev Tools.
+
+After the completed version of the website, used three forms of validations to verify the code stability. Also carried out the responsive test for different screen resolution by using chrome tool. 
+
+Used the [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to check the code.
+
+![alt text](../assets/images/readme-images/html-validator.png)
+
+![alt text](../assets/images/readme-images/css-validator.png)
+
+Manually checked that the website is working on different browsers 
+    - Chrome
+    - Microsoft Edge
+    - Internet Explorer
+    - Safari
+  - 
