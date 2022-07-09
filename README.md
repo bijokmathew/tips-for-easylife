@@ -43,7 +43,7 @@ A live version of the project can be found here -
     + [New Users](#new-users "New Users")
   + [User Goals](#user-goals "User Goals")
   + [Requirements](#requirements "Requirements")
-
+  + [Scope](#scope "Scope")
 ## UX
 
 ### Strategy
@@ -90,5 +90,12 @@ What user looking for?
  - Visit our social networks
  - Explore the new life hacks
 
-### Requirements
+### Scope
 
+As per business goals and user's needs, the below features included in the first release:
+1. Clear Header with website logo and navigation bar linking to various sections of the website.
+   Quick idea for the user on what a life hack is.
+2. A submission form so users can submit forms that can later be added to the website.
+   A footer with links to social media pages.
+3. Included three categories like Techenology,Health and Money Savers.
+4. Footer contains links to social media pages.
