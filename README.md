@@ -217,7 +217,10 @@ About Us - Image
 ### Features Left to Implement
 
 - Later versions of this projects will include more categories .
-- In future versions, category section design will change in order to include more life hacks in different categories.
+- In future versions
+    - Category section design will change in order to include more life hacks in different categories.
+    - Give an option to the user to filter the life hacks based on the update, popular etc.
+    - Give a search option so that user can easily search any specific hack tips, 
 
 [Back to top](#Easy-Life-Tips)
 
