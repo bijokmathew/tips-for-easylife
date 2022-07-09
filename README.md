@@ -53,6 +53,15 @@ A live version of the project can be found here -
       - [Typography](#typography)
       - [Images](#images)
   - [Features](#features)
+    - [Existing Features](#existing-features)
+      - [Header and Navigation Section](#header-and-navigation-section)
+      - [Hero Image Section](#hero-image-section)
+      - [About us Section](#about-us-section)
+      - [Category Section](#category-section)
+      - [Hack submission Section](#hack-submission-section)
+      - [Footer Section](#footer-section)
+      - [Form-ack page](#form-ack-page)
+     
 ## UX
 
 ### Strategy
@@ -144,3 +153,57 @@ Tips For Easy Life website is a single page website that consists of these secti
  - Footer with links to social medias
 
 In order to make navigation easier between the sections the navigation bar is fixed on top when the user scrolls thru the page.
+
+### Existing Features
+
+#### Header and Navigation Section
+
+  - The Header consists of a Logo section, text-based, that is aligned to the left and a Menu that is aligned to the right.
+
+![Header and navigation](/assets/images/readme-images/header-section.png)
+
+#### Hero Image Section
+
+  - The Hero image section contains a Hero Image, header and a paragraph.
+  - The section also contains a header and a paragraph that gives the user a clear message on what this website is about.
+
+![Hero Header Section](/assets/images/readme-images/hero-image-section.jpg)
+
+#### About us Section
+
+  - The about us sections contains paragraph and an image. One informative part with a longer paragraph next to an image.  
+  - The purpose of the About Us section is to give Users a feel of what is life hack and what kind of life hacks user 
+    can search in the website. The images gives a comforting feel.
+
+About Us - Image
+
+![About us Section part 1](/assets/images/readme-images/about-us-section.jpg)
+
+#### Category Section
+
+  - This section contains a header and three sub categories.
+  - The purpose of this section is to give the User can easily search life hacks in different categories.
+
+![category Section](/assets/images/readme-images/category-section.jpg)
+
+#### Hack submission Section
+
+  - The section contains a contact form with text area where user can submit their life hacks. 
+  - The purpose of this section is to allow user to contributes their hack tips in to the website.
+
+![Contact and Registration Section](/assets/images/readme-images/hack-submit-section.jpg)
+
+#### Footer Section
+
+  - The Footer contains four social media links (Facebook, Twitter, YouTube and Instagram) The code for the Footer is borrowed    from the Love Running - Project.
+  - The purpose of the Footer is to provide easy access for the User to the different social media platforms were Tips For Easy Life has a presence.
+
+![Footer](/assets/images/readme-images/footer-section.png)
+
+#### Form-ack page
+
+  - This site contains a message when the form has been used.
+  - The purpose of this page to give an acknowledgement to the user .
+
+![Form-dump page](/assets/images/readme-images/form-ack-page.jpg)
+
