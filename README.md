@@ -65,6 +65,7 @@ A live version of the project can be found here -
   - [Technologies used](#technologies-used)
   - [UX Stories Testing](#ux-stories-testing)
 - [Testing and Code Validation](#testing-and-code-validation)
+  - [Bugs](#bugs)
      
 ## UX
 
@@ -298,4 +299,14 @@ Manually checked that the website is working on different browsers
     - Microsoft Edge
     - Internet Explorer
     - Safari
-  - 
+
+## Bugs 
+
+During the development stage, found many minor and major issues .The following bugs took time to resolve.
+
+1. During Responsive test case, form page and text area are not fit in to the smaller screen devices and it is very hard to set the width for form and text-area eaxactly without affecting the look for smaller device.
+  - Solution:  Calculated the large screen  device width and calculated the width of form and text area in % so that no need to give seperate value for smaller devices    
+
+2. Top menu disappears even though its fixed.
+ - Solution: Had to use z-index to keep the navigation menu on top of all sections and elements, value set to 20
+ 
