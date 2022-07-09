@@ -52,6 +52,7 @@ A live version of the project can be found here -
       - [Colours](#colours)
       - [Typography](#typography)
       - [Images](#images)
+  - [Features](#features)
 ## UX
 
 ### Strategy
@@ -130,3 +131,16 @@ The [Google Font Open Sans]('https://fonts.googleapis.com/css2?family=Open+Sans&
 #### Images
 
 Images has been chosen in accordance to colour and content. The purpose of the website is to give a friendly look and express quality. Images has been sized in order to match design.
+
+## Features 
+
+Tips For Easy Life website is a single page website that consists of these sections:
+
+ - Header (Logo/Menu)
+ - Hero Image with descripyion of life hack
+ - About Us
+ - Categories
+ - Hack submission form
+ - Footer with links to social medias
+
+In order to make navigation easier between the sections the navigation bar is fixed on top when the user scrolls thru the page.
