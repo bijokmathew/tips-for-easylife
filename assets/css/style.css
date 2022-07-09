@@ -31,6 +31,7 @@ h2,
 h3 {
     font-family: sansita, sans-serif;
     text-transform: capitalize;
+    font-weight: 700;
     letter-spacing: 5px;
     color: #3F4E4F;
 }
@@ -112,7 +113,7 @@ h2 {
 .sub-header {
     height: 75px;
     line-height: 75px;
-    font-weight: 280;
+    font-weight: 500;
     background-color: blanchedalmond;
 }
 
@@ -154,7 +155,7 @@ h2 {
     color: #fff;
     margin-left: 28px;
     padding-top: 10px;
-    font-weight: 260;
+    font-weight: 500;
     margin-top: 2px;
     text-align: left;
 }

@@ -36,14 +36,22 @@ A live version of the project can be found here -
 
 # Table of Content
 
-+ [UX](#ux "UX")
-  + [Strategy](#Strategy "Strategy")
-  + [User Stories](#user-stories "User Stories")
-    + [Existing Members](#existing-members "Existing Members")
-    + [New Users](#new-users "New Users")
-  + [User Goals](#user-goals "User Goals")
-  + [Requirements](#requirements "Requirements")
-  + [Scope](#scope "Scope")
+- [Easy Life Tips](#easy-life-tips)
+- [The purpose with this project](#the-purpose-with-this-project)
+    - [The business goals of the website are:](#the-business-goals-of-the-website-are)
+    - [The user goals of the website:](#the-user-goals-of-the-website)
+- [Table of Content](#table-of-content)
+  - [UX](#ux)
+    - [Strategy](#strategy)
+    - [User Stories](#user-stories)
+      - [Existing Members](#existing-members)
+      - [New Users](#new-users)
+    - [User Goals](#user-goals)
+    - [Scope](#scope)
+    - [Design](#design)
+      - [Colours](#colours)
+      - [Typography](#typography)
+      - [Images](#images)
 ## UX
 
 ### Strategy
@@ -99,3 +107,26 @@ As per business goals and user's needs, the below features included in the first
    A footer with links to social media pages.
 3. Included three categories like Techenology,Health and Money Savers.
 4. Footer contains links to social media pages.
+
+### Design
+
+ Tips For Easy Life project's design has been influenced by the ”Love Running” and "Coders Coffeehouse" - projects.
+ My design of the header and hero-header has also been influenced by those projects.
+
+ Main aim is to create a clean looking website where there is a balance between colors, images and functionality.
+
+ Tips For Esay Life website is a single page website divided in to three sections. Menu is fixed on top in order to ensure easy navigation between the sections.
+
+#### Colours
+
+The colour palette was created using [Coolors](https://fontawesome.com/).
+
+![Colour Palette](/assets/images/readme-images/colour-palette.png)
+
+#### Typography
+
+The [Google Font Open Sans]('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sansita&display=swap')was chosen as the main font with a fallback of Sans-Serif. Font weights of 300, 500 and 700 has been used on the website.
+
+#### Images
+
+Images has been chosen in accordance to colour and content. The purpose of the website is to give a friendly look and express quality. Images has been sized in order to match design.
