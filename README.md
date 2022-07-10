@@ -66,6 +66,7 @@ A live version of the project can be found here -
   - [UX Stories Testing](#ux-stories-testing)
 - [Testing and Code Validation](#testing-and-code-validation)
   - [Bugs](#bugs)
+    - [Validator Testing](#validator-testing)
      
 ## UX
 
@@ -282,6 +283,8 @@ Below are website images for reference with the UX Stories Testing.
    - All the layout and images in the website are clearly visible to the user    
    - Depends on the screen diamensions, website layout design of category, about sections will change
   
+[Back to top](#Easy-Life-Tips)
+
 # Testing and Code Validation
 
 At each stage of the wesite development various types testing was executed to find the issues by using using Chrom Dev Tools.
@@ -308,5 +311,22 @@ During the development stage, found many minor and major issues .The following b
   - Solution:  Calculated the large screen  device width and calculated the width of form and text area in % so that no need to give seperate value for smaller devices    
 
 2. Top menu disappears even though its fixed.
- - Solution: Had to use z-index to keep the navigation menu on top of all sections and elements, value set to 20
+ - Solution: Used z-index to keep the navigation menu on top of all sections and elements, value set to 20
  
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpelikantapeten.github.io%2Fp1-nacka-tomato-society%2F)
+
+![W3C HTML Validator](/assets/images/readme-images/w3-html-validator.png)
+
+- CSS
+  - No errors were returned when passing through the official [(Jigsaw validator)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpelikantapeten.github.io%2Fp1-nacka-tomato-society%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Jigsaw validator](/assets/images/readme-images/jigsaw-validator.png)
+
+- Lighthouse testing
+
+![Lighthouse testing score](/assets/images/readme-images/lighthouse-test-score.png)
+
+[Back to top](#Easy-Life-Tips)
