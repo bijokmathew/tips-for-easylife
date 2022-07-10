@@ -35,7 +35,8 @@ h3 {
     letter-spacing: 5px;
     color: #3F4E4F;
 }
-header{
+
+header {
     height: 75px;
     width: 100%;
     position: fixed;
@@ -43,8 +44,8 @@ header{
     background-color: #F5F0BB;
     margin-top: -75px;
     border-bottom: 2px solid black;
-    
 }
+
 #logo {
     float: left;
     font-size: 270%;
@@ -241,9 +242,11 @@ label {
     margin: 5px 0 20px 0;
     border: 1px solid #1a1a1a;
 }
-textarea{
+
+textarea {
     width: 100%;
 }
+
 .text-input:hover {
     border-color: #f16c6b;
 }
@@ -270,6 +273,9 @@ footer {
     display: block;
     height: 150px;
     line-height: 150px;
+    margin-top: 30px;
+    background-color: #F5F0BB;
+    border-top: 2px solid black;
 }
 
 .footer-social-links {
@@ -293,15 +299,18 @@ footer {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #abt-sectiogn{
+    #abt-sectiogn {
         height: 375px;
     }
-    #cat-section{
+
+    #cat-section {
         height: 1800px;
     }
+
     #cat-tech {
         height: 600px;
     }
+
     .cat-hack-box {
         width: 30%;
         margin: 2rem 2rem 1rem 2rem;
@@ -309,42 +318,49 @@ footer {
         background-color: beige;
         box-shadow: 5px 5px 2px hsl(60, 2%, 12%);
     }
-    #cat-health{
+
+    #cat-health {
         height: 600px;
     }
-    #cat-money{
+
+    #cat-money {
         height: 600px;
     }
 }
+
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width:950px) {
-    
+
     #hero-cover-text p {
         font-size: 110%;
     }
-    
+
     #hero-cover-text h2 {
         font-size: 300%;
     }
 }
 
-@media screen and (max-width: 800px){
-    #menu{
+@media screen and (max-width: 800px) {
+    #menu {
         clear: left;
         float: left;
-        margin-left: 30px; 
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-    }  
-    #abt-sectiogn{
+    }
+
+    #abt-sectiogn {
         height: 900px;
     }
-    #cat-section{
+
+    #cat-section {
         height: 2700px;
     }
+
     #cat-tech {
         height: 900px;
     }
+
     .cat-hack-box {
         width: 80%;
         margin: 2rem 2rem 1rem 2rem;
@@ -352,13 +368,16 @@ footer {
         background-color: beige;
         box-shadow: 5px 5px 2px hsl(60, 2%, 12%);
     }
-    #cat-health{
+
+    #cat-health {
         height: 900px;
     }
-    #cat-money{
+
+    #cat-money {
         height: 900px;
     }
-    .submit-form{
+
+    .submit-form {
         width: 80%;
     }
 }
