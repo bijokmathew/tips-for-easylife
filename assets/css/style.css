@@ -341,14 +341,25 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+    
+    header{
+        height: 100px;
+        margin-top: -90px;
+    }
+    #logo{
+        font-size: 210%;
+    }
     #menu {
         clear: left;
         float: left;
+        font-size: 100%;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
-
+    #menu li{
+        margin-right: 15px;
+    }
     #abt-sectiogn {
         height: 900px;
     }
