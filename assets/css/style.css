@@ -392,6 +392,11 @@ footer {
         margin-right: 15px;
     }
 
+    #hero-cover-text {
+        width: 60%;
+        left: 15%;
+    }
+
     #abt-section {
         height: 525px;
     }
@@ -412,10 +417,6 @@ footer {
     .cat-hack-box {
         width: 80%;
         height: auto;
-        margin: 2rem 2rem 1rem 2rem;
-        display: inline-block;
-        background-color: beige;
-        box-shadow: 5px 5px 2px hsl(60, 2%, 12%);
     }
 
     #cat-tech {
@@ -433,5 +434,52 @@ footer {
     .submit-form {
         width: 60%;
         left: 5%;
+    }
+}
+
+/* For medium screens sizes from 500px wide and down */
+
+@media screen and (max-width:500px) {
+
+    #hero-cover-text {
+        width: 80%;
+        left: 10%;
+    }
+
+    #abt-section {
+        height: 600px;
+    }
+
+    #abt-left {
+        height: 300px;
+    }
+
+    #abt-right {
+        height: 300px;
+    }
+
+    #cat-section {
+        height: 3250px;
+    }
+
+    .cat-hack-box {
+        width: 80%;
+        height: auto;
+    }
+
+    #cat-tech {
+        height: 1050px;
+    }
+
+    #cat-health {
+        height: 1050px;
+    }
+
+    #cat-money {
+        height: 1125px;
+    }
+
+    h2 {
+        letter-spacing: 0px;
     }
 }
