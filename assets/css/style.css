@@ -46,6 +46,13 @@ header {
     border-bottom: 2px solid black;
 }
 
+.sub-header {
+    height: 75px;
+    line-height: 75px;
+    font-weight: 500;
+    background-color: blanchedalmond;
+}
+
 #logo {
     float: left;
     font-size: 270%;
@@ -120,13 +127,6 @@ h2 {
     margin-top: 30px;
 }
 
-.sub-header {
-    height: 75px;
-    line-height: 75px;
-    font-weight: 500;
-    background-color: blanchedalmond;
-}
-
 /* About section style */
 
 #abt-section {
@@ -178,22 +178,22 @@ h2 {
     text-align: left;
 }
 
+.cat-hack-box {
+    width: 20%;
+    height: 200px;
+    vertical-align: top;
+    margin: 2rem 1rem 2rem 0;
+    display: inline-block;
+    background-color: beige;
+}
+
 #cat-tech {
     width: 100%;
     height: 300px;
     text-align: center;
+    vertical-align: top;
     background: url(../images/cat_tech_img.jpg) no-repeat center center;
     background-size: cover;
-}
-
-.cat-hack-box {
-    width: 20%;
-    height: 200px;
-    margin: 2rem 1rem 2rem 0;
-    vertical-align: top;
-    display: inline-block;
-    background-color: beige;
-    
 }
 
 #cat-health {
@@ -215,11 +215,6 @@ h2 {
 }
 
 /* Life Hack submit form style */
-
-#form-section {
-    margin-top: 0px;
-}
-
 form {
     display: block;
 }
@@ -305,7 +300,6 @@ footer {
 }
 
 /* media query */
-
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #abt-sectiogn {
@@ -347,29 +341,33 @@ footer {
     #hero-cover-text h2 {
         font-size: 300%;
     }
-    #abt-section{
+
+    #abt-section {
         height: 450px;
     }
-    #abt-left{
+
+    #abt-left {
         height: 200px;
         width: 90%;
         display: block;
     }
-    #abt-right{
+
+    #abt-right {
         height: 250px;
         width: 60%;
         display: block;
         text-align: right;
         margin-top: 30px;
-
     }
-    #abt-img{
+
+    #abt-img {
         height: 200px;
         width: 200px;
     }
- 
+
 }
 
+/* For medium screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
 
     header {
@@ -393,34 +391,35 @@ footer {
     #menu li {
         margin-right: 15px;
     }
-    #abt-section{
+
+    #abt-section {
         height: 525px;
     }
-    #abt-right{
+
+    #abt-right {
         height: 300px;
         width: 80%;
     }
-    #abt-img{
+
+    #abt-img {
         margin-top: 60px;
     }
- 
-
-
 
     #cat-section {
-        height: 2700px;
-    }
-
-    #cat-tech {
-        height: 900px;
+        height: 2800px;
     }
 
     .cat-hack-box {
         width: 80%;
+        height: auto;
         margin: 2rem 2rem 1rem 2rem;
         display: inline-block;
         background-color: beige;
         box-shadow: 5px 5px 2px hsl(60, 2%, 12%);
+    }
+
+    #cat-tech {
+        height: 900px;
     }
 
     #cat-health {
@@ -428,10 +427,11 @@ footer {
     }
 
     #cat-money {
-        height: 900px;
+        height: 975px;
     }
 
     .submit-form {
-        width: 80%;
+        width: 60%;
+        left: 5%;
     }
 }
