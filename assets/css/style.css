@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: open Sans, sans-serif;
+    font-family: 'open Sans', sans-serif;
     font-weight: 300;
     color: #312d2d;
     background-color: #F9F3EE;
@@ -290,7 +290,7 @@ footer {
     display: inline;
     padding: 5%;
     margin: 1%;
-    font-weight: 100%;
+    font-weight: 100;
     text-align: center;
     font-size: 150%;
 }
