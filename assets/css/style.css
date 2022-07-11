@@ -88,6 +88,39 @@ header {
 #currpage {
     color: blue;
 }
+/* Content section for contact-form-dump.html */
+
+#ack-form {
+    margin-top: 90px;
+    height: 415px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #F9F3EE;;
+}
+
+#ack-form-message {
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 120px;
+    width: 100%;
+}
+
+#ack-form-message h2 {
+    font-size: 320%;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #3F4E4F;
+    margin-bottom: 4px;
+}
+
+#ack-form-message p {
+    color: #312d2d;
+    font-weight: 700;
+    padding: 10px 20px ;
+    letter-spacing: 2px;
+}
 
 /* hero-image style */
 #hero-image {
@@ -288,7 +321,7 @@ footer {
 
 .footer-social-links li {
     display: inline;
-    padding: 5%;
+    padding: 0 5%;
     margin: 1%;
     font-weight: 100;
     text-align: center;
