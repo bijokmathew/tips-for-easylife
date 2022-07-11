@@ -180,7 +180,6 @@ h2 {
 
 #cat-tech {
     width: 100%;
-    display: block;
     height: 300px;
     text-align: center;
     background: url(../images/cat_tech_img.jpg) no-repeat center center;
@@ -189,10 +188,12 @@ h2 {
 
 .cat-hack-box {
     width: 20%;
-    margin: 2rem 1rem 3rem 0;
+    height: 200px;
+    margin: 2rem 1rem 2rem 0;
+    vertical-align: top;
     display: inline-block;
     background-color: beige;
-    box-shadow: 5px 5px 2px hsl(60, 2%, 12%);
+    
 }
 
 #cat-health {
