@@ -60,7 +60,7 @@ A live version of the project can be found here -
       - [Category Section](#category-section)
       - [Hack submission Section](#hack-submission-section)
       - [Footer Section](#footer-section)
-      - [Form-ack page](#form-ack-page)
+      - [FormT-ack page](#formt-ack-page)
     - [Features Left to Implement](#features-left-to-implement)
   - [Technologies used](#technologies-used)
   - [UX Stories Testing](#ux-stories-testing)
@@ -168,14 +168,14 @@ In order to make navigation easier between the sections the navigation bar is fi
 
   - The Header consists of a Logo section, text-based, that is aligned to the left and a Menu that is aligned to the right.
 
-![Header and navigation](/assets/images/readme-images/header-section.png)
+![Header and navigation](assets/images/readme-images/header-section.png)
 
 #### Hero Image Section
 
   - The Hero image section contains a Hero Image, header and a paragraph.
   - The section also contains a header and a paragraph that gives the user a clear message on what this website is about.
 
-![Hero Header Section](/assets/images/readme-images/hero-image-section.jpg)
+![Hero Header Section](assets/images/readme-images/hero-image-section.png)
 
 #### About us Section
 
@@ -185,7 +185,7 @@ In order to make navigation easier between the sections the navigation bar is fi
 
 About Us - Image
 
-![About us Section part 1](/assets/images/readme-images/about-us-section.jpg)
+![About us Section part 1](assets/images/readme-images/about-us-section.png)
 
 [Back to top](#Easy-Life-Tips)
 
@@ -194,28 +194,29 @@ About Us - Image
   - This section contains a header and three sub categories.
   - The purpose of this section is to give the User can easily search life hacks in different categories.
 
-![category Section](/assets/images/readme-images/category-section.jpg)
+![category Section 1](assets/images/readme-images/category-section-1.png)
+![category Section 2](assets/images/readme-images/category-section-2.png)
 
 #### Hack submission Section
 
   - The section contains a contact form with text area where user can submit their life hacks. 
   - The purpose of this section is to allow user to contributes their hack tips in to the website.
 
-![Contact and Registration Section](/assets/images/readme-images/hack-submit-section.jpg)
+![Contact and Registration Section](assets/images/readme-images/hack-submit-section.png)
 
 #### Footer Section
 
   - The Footer contains four social media links (Facebook, Twitter, YouTube and Instagram) The code for the Footer is borrowed    from the Love Running - Project.
   - The purpose of the Footer is to provide easy access for the User to the different social media platforms were Tips For Easy Life has a presence.
 
-![Footer](/assets/images/readme-images/footer-section.png)
+![Footer](assets/images/readme-images/footer-section.png)
 
-#### Form-ack page
+#### FormT-ack page
 
   - This site contains a message when the user submit their hack.
   - The purpose of this page to give an acknowledgement to the user .
 
-![Form-dump page](/assets/images/readme-images/form-ack-page.jpg)
+![Form-dump page](assets/images/readme-images/form-ack-page.png)
 
 ### Features Left to Implement
 
@@ -231,7 +232,6 @@ About Us - Image
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
-- JavaScript - Used for the collapsible sections in both the smaller Nav bar and the Hacks section.
 - Font Awesome - Used to provide in the Hacks section and also in the Footer.
 - Chrome Dev Tools - Used to check my work periodically, debug my code when needed and also test the responsiveness of my website.
 - GitHub - Used to store my code after pushing from Gitpod.
