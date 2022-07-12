@@ -64,8 +64,7 @@ A live version of the project can be found here -
     - [Features Left to Implement](#features-left-to-implement)
   - [Technologies used](#technologies-used)
   - [UX Stories Testing](#ux-stories-testing)
-- [Testing and Code Validation](#testing-and-code-validation)
-  - [Bugs](#bugs)
+    - [Bugs](#bugs)
     - [Validator Testing](#validator-testing)
   - [Development and Deployment](#development-and-deployment)
   - [Content](#content)
@@ -255,10 +254,11 @@ About Us - Image
 
 Below are website images for reference with the UX Stories Testing.
 
-![alt text](../assets/images/readme-images/header-section.png)
-![alt text](../assets/images/readme-images/about-section.png)
-![alt text](../assets/images/readme-images/catedory-section.png)
-![alt text](../assets/images/readme-images/footer.png)
+![alt text](assets/images/readme-images/header-section.png)
+![alt text](assets/images/readme-images/about-us-section.png)
+![alt text](assets/images/readme-images/category-section-1.png)
+![alt text](assets/images/readme-images/category-section-2.png)
+![alt text](assets/images/readme-images/footer-section.png)
 
 1. As a new visitor, I want to browse all the information available to see.
 
@@ -291,25 +291,7 @@ Below are website images for reference with the UX Stories Testing.
   
 [Back to top](#Easy-Life-Tips)
 
-# Testing and Code Validation
-
-At each stage of the wesite development various types testing was executed to find the issues by using using Chrom Dev Tools.
-
-After the completed version of the website, used three forms of validations to verify the code stability. Also carried out the responsive test for different screen resolution by using chrome tool. 
-
-Used the [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to check the code.
-
-![alt text](../assets/images/readme-images/html-validator.png)
-
-![alt text](../assets/images/readme-images/css-validator.png)
-
-Manually checked that the website is working on different browsers 
-    - Chrome
-    - Microsoft Edge
-    - Internet Explorer
-    - Safari
-
-## Bugs 
+### Bugs 
 
 During the development stage, found many minor and major issues .The following bugs took time to resolve.
 
@@ -320,6 +302,9 @@ During the development stage, found many minor and major issues .The following b
  - Solution: Used z-index to keep the navigation menu on top of all sections and elements, value set to 20
  
 ### Validator Testing 
+
+At each stage of the wesite development various types testing was executed to find the issues by using using Chrom Dev Tools.
+After the completed version of the website, used three forms of validations to verify the code stability. Also carried out the responsive test for different screen resolution by using chrome tool. 
 
 - HTML
   - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbijokmathew.github.io%2Ftips-for-easylife%2F)
