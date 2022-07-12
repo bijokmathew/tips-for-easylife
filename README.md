@@ -67,6 +67,12 @@ A live version of the project can be found here -
 - [Testing and Code Validation](#testing-and-code-validation)
   - [Bugs](#bugs)
     - [Validator Testing](#validator-testing)
+  - [Development and Deployment](#development-and-deployment)
+  - [Content](#content)
+  - [Media](#media)
+  - [Credits](#credits)
+    - [For code inspiration, design inputs, help and advice. Many thanks to:](#for-code-inspiration-design-inputs-help-and-advice-many-thanks-to)
+    - [Great sources](#great-sources)
      
 ## UX
 
@@ -318,15 +324,70 @@ During the development stage, found many minor and major issues .The following b
 - HTML
   - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpelikantapeten.github.io%2Fp1-nacka-tomato-society%2F)
 
-![W3C HTML Validator](/assets/images/readme-images/w3-html-validator.png)
+![W3C HTML Validator](assets/images/readme-images/w3-html-validator.png)
 
 - CSS
   - No errors were returned when passing through the official [(Jigsaw validator)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpelikantapeten.github.io%2Fp1-nacka-tomato-society%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-![Jigsaw validator](/assets/images/readme-images/jigsaw-validator.png)
+![Jigsaw validator](assets/images/readme-images/jigsaw-validator.png)
 
 - Lighthouse testing
 
-![Lighthouse testing score](/assets/images/readme-images/lighthouse-test-score.png)
+![Lighthouse testing score](assets/images/readme-images/lighthouse-test-score.png)
 
 [Back to top](#Easy-Life-Tips)
+
+## Development and Deployment
+
+The development environment used for this project is GitPod and also used github version control tool to stote the project.Github help to keep track each version and easily track the changes made to the source code. The GitPod environment was created using a template provided by Code Institute.
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in [GitHub Docs.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+1. Log into GitHub.
+2. Go to the GitHub Repository of project(tips-for-easylife) which shall be deployed live.
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page and select pages->GitHub pages
+5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+6. The website will deploy and the pages refreshes to provide the live link to the project.
+
+The live link can be found here - https://bijokmathew.github.io/tips-for-easylife/
+
+## Content 
+
+All content for the website taken from  Google and an lifehack app 'Life Hack Tips - Daily Tips for your Life'
+
+## Media
+
+- All Icons used are from FontAwesome (https://fontawesome.com/)
+
+- All images used in the website were found on Pexels.com and shutterstock.com 
+
+## Credits 
+
+### For code inspiration, design inputs, help and advice. Many thanks to:
+
+Martina Terlevic
+ - My mentor at Code Institute and she guided me throught the project.
+ - Friends and Teachers at Code Institute: Thank you for all your knowledge and insight.
+ - Walkthrough project ”Love Running” has provided  inspiration and knowledge.
+
+### Great sources
+
+Sites that has provided me with knowledge and information that has been vital to this project:
+
+- https://www.w3schools.com/
+- https://stackoverflow.com
+- https://learn.codeinstitute.net/dashboard 
+- https://www.youtube.com
+     
+
+Top screenshot in this ReadMe was made using:
+
+http://ami.responsivedesign.is/
+
+Best regards
+
+[Back to top](#Easy-Life-Tips)
+
