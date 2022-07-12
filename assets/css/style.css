@@ -532,7 +532,10 @@ footer {
 
 @media screen and (max-width:500px) {
 
-
+    #logo {
+        font-size: 150%;
+        margin-left: 14px;
+    }
     #hero-cover-text {
         width: 80%;
         left: 10%;
