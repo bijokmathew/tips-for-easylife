@@ -322,7 +322,7 @@ During the development stage, found many minor and major issues .The following b
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpelikantapeten.github.io%2Fp1-nacka-tomato-society%2F)
+  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbijokmathew.github.io%2Ftips-for-easylife%2F)
 
 ![W3C HTML Validator](assets/images/readme-images/w3-html-validator.png)
 
