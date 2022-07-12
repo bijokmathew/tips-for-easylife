@@ -60,6 +60,13 @@ header {
 }
 
 /* navigation menu style */
+
+/* hide hamburger button */
+nav label,
+#hamburger {
+    display: none;
+}
+
 #menu {
     letter-spacing: 5px;
     font-size: 110%;
@@ -88,6 +95,7 @@ header {
 #currpage {
     color: blue;
 }
+
 /* Content section for contact-form-dump.html */
 
 #ack-form {
@@ -97,7 +105,8 @@ header {
     position: relative;
     text-align: center;
     padding-top: 20px;
-    background-color: #F9F3EE;;
+    background-color: #F9F3EE;
+    ;
 }
 
 #ack-form-message {
@@ -118,7 +127,7 @@ header {
 #ack-form-message p {
     color: #312d2d;
     font-weight: 700;
-    padding: 10px 20px ;
+    padding: 10px 20px;
     letter-spacing: 2px;
 }
 
@@ -403,6 +412,7 @@ footer {
 /* For medium screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
 
+    /*
     header {
         height: 100px;
         margin-top: -90px;
@@ -423,6 +433,49 @@ footer {
 
     #menu li {
         margin-right: 15px;
+    }
+*/
+    #menu {
+        float: right;
+        width: 100%;
+        margin-top: 0;
+        background-color: #F5F0BB;
+    }
+
+    #menu li {
+        display: block;
+        text-align: right;
+    }
+
+    #menu a {
+        width: 100%;
+        display: block;
+        text-align: right;
+        color: #312d2d;
+        box-sizing: border-box;
+        border-top: 1px solid #333;
+    }
+
+    /* show hamburger icon */
+    nav label {
+        color: #fff;
+        display: block;
+        margin-top: 20px;
+        background: #f16c6b;
+        font-size: 1.2em;
+        float: right;
+        padding: 5px;
+
+    }
+
+    /* hide menu items */
+    #menu li {
+        display: none;
+    }
+
+    /* toggle show hide */
+    nav #hamburger:checked~#menu li {
+        display: block;
     }
 
     #hero-cover-text {
@@ -473,6 +526,7 @@ footer {
 /* For medium screens sizes from 500px wide and down */
 
 @media screen and (max-width:500px) {
+
 
     #hero-cover-text {
         width: 80%;
