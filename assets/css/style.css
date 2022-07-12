@@ -99,14 +99,14 @@ nav label,
 /* Content section for contact-form-dump.html */
 
 #ack-form {
-    margin-top: 90px;
+    margin-top: 75px;
     height: 415px;
     width: 100%;
     position: relative;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 75px;
+    padding-bottom: 150px;
     background-color: #F9F3EE;
-    ;
 }
 
 #ack-form-message {
