@@ -120,7 +120,7 @@ As per business goals and user's needs, the below features included in the first
 ### Design
 
  Tips For Easy Life project's design has been influenced by the ”Love Running” and "Coders Coffeehouse" - projects.
- My design of the header and hero-header has also been influenced by those projects.
+ My design of the header, hero-header and footer has been influenced by those projects.
 
  Main aim is to create a clean looking website where there is a balance between colors, images and functionality.
 
@@ -147,7 +147,7 @@ Tips For Easy Life website is a single page website that consists of these secti
  - Hack submission form
  - Footer with links to social medias
 
-In order to make navigation easier between the sections the navigation bar is fixed on top when the user scrolls thru the page.
+In order to make navigation easier between the sections the navigation bar is fixed on top when the user scrolls throgh the page.
 
 ### Existing Features
 
