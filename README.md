@@ -49,7 +49,7 @@ Requirements for the project is that the website has to be static and responsive
     - [Category Section](#category-section)
     - [Hack submission Section](#hack-submission-section)
     - [Footer Section](#footer-section)
-    - [FormT-ack page](#formt-ack-page)
+    - [Thank You page](#thank-you-page)
   - [Features Left to Implement](#features-left-to-implement)
 - [Technologies used](#technologies-used)
 - [UX Stories Testing](#ux-stories-testing)
@@ -160,7 +160,7 @@ In order to make navigation easier between the sections the navigation bar is fi
 #### Hero Image Section
 
   - The Hero image section contains a Hero Image, header and a paragraph.
-  - The section also contains a header and a paragraph that gives the user a clear message on what this website is about.
+  - Header and a paragraph that gives the user a clear message on what this website is about.
 
 ![Hero Header Section](assets/images/readme-images/hero-image-section.png)
 
@@ -189,7 +189,7 @@ About Us - Image
   - The section contains a contact form with text area where user can submit their life hacks. 
   - The purpose of this section is to allow user to contributes their hack tips in to the website.
 
-![Contact and Registration Section](assets/images/readme-images/hack-submit-section.png)
+![Submit Hacks Section](assets/images/readme-images/hack-submit-section.png)
 
 #### Footer Section
 
@@ -198,12 +198,12 @@ About Us - Image
 
 ![Footer](assets/images/readme-images/footer-section.png)
 
-#### FormT-ack page
+#### Thank You page
 
   - This site contains a message when the user submit their hack.
   - The purpose of this page to give an acknowledgement to the user .
 
-![Form-dump page](assets/images/readme-images/form-ack-page.png)
+![Thank you page](assets/images/readme-images/form-ack-page.png)
 
 ### Features Left to Implement
 
@@ -211,7 +211,8 @@ About Us - Image
 - In future versions
     - Category section design will change in order to include more life hacks in different categories.
     - Give an option to the user to filter the life hacks based on the update, popular etc.
-    - Give a search option so that user can easily search any specific hack tips, 
+    - Give a search option so that user can easily search any specific hack tips.
+    - Give an option to the user for sharing the life hacks from website to social medias   
 
 [Back to top](#Easy-Life-Tips)
 
@@ -224,11 +225,10 @@ About Us - Image
 - GitHub - Used to store my code after pushing from Gitpod.
 - GitPod - Used as a development environment.
 - Git - Used for version control of my code.
-- Sketch - Used to create the wireframes for the project.
+- Balsamic- Used to create the wireframes for the project.
 - Google Fonts - Used to style my website fonts.
 - W3C Markup Validation Service - Used to validate all of my HTML code.
 - W3C CSS Validation Service - Used to validate all of my CSS code.
-- Color Contrast Accessibility Validator - Used to check my website colours had enough contrast for accessibility purposes.
 - Optimizilla Image Compressor - Used to compress the images.
 - Dirty Markup Formatter - Used to standardise and format my HTML and CSS code.
 
