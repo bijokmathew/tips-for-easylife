@@ -1,8 +1,8 @@
-# Easy Life Tips
+# Easy Life Tips<!-- omit in toc -->
 
 ![Responsive screenshot](assets/images/readme-images/responsiv-image.png)
 
-# The purpose with this project
+# The purpose with this project<!-- omit in toc -->
 
 This website (Easy Life Tips) created to help people learn all sorts of different tips and tricks that can save them time and money in their everyday life. Also users can submit their own life hack ideas so that the website will become a living, up to date.
 
@@ -12,7 +12,7 @@ This website has three sections:
  2. Category
  3. Submit Hacks
 
-### The business goals of the website are:
+### The business goals of the website are:<!-- omit in toc -->
 
 * This website help the user to find the life hacks tips easily with the help of categories.
 * As this website is user friendly so that user love to visit again for finding more life hack tips 
@@ -20,7 +20,7 @@ This website has three sections:
 * Once visitor traffic is sufficient, sell advertising space.
 * Partner with businesses who would help our users with 'sponsored' LifeHacks.
 
-### The user goals of the website:
+### The user goals of the website:<!-- omit in toc -->
 
 * As a first time visitor  want to find out exactly what a Life Hack is.
 * As a first time visitor I want to find out some new tips and tricks that can save me time and money.
@@ -30,47 +30,37 @@ This website has three sections:
 This website is the first of five projects that needs to be completed in order to receive a diploma in Software Development from The Code Institute.
 
 Requirements for the project is that the website has to be static and responsive using HTML5 and CSS3.
-
-
-A live version of the project can be found here - 
-
-# Table of Content
-
-- [Easy Life Tips](#easy-life-tips)
-- [The purpose with this project](#the-purpose-with-this-project)
-    - [The business goals of the website are:](#the-business-goals-of-the-website-are)
-    - [The user goals of the website:](#the-user-goals-of-the-website)
-- [Table of Content](#table-of-content)
-  - [UX](#ux)
-    - [Strategy](#strategy)
-    - [User Stories](#user-stories)
-      - [Existing Members](#existing-members)
-      - [New Users](#new-users)
-    - [User Goals](#user-goals)
-    - [Scope](#scope)
-    - [Design](#design)
-      - [Typography](#typography)
-      - [Images](#images)
-  - [Features](#features)
-    - [Existing Features](#existing-features)
-      - [Header and Navigation Section](#header-and-navigation-section)
-      - [Hero Image Section](#hero-image-section)
-      - [About us Section](#about-us-section)
-      - [Category Section](#category-section)
-      - [Hack submission Section](#hack-submission-section)
-      - [Footer Section](#footer-section)
-      - [FormT-ack page](#formt-ack-page)
-    - [Features Left to Implement](#features-left-to-implement)
-  - [Technologies used](#technologies-used)
-  - [UX Stories Testing](#ux-stories-testing)
-    - [Bugs](#bugs)
-    - [Validator Testing](#validator-testing)
-  - [Development and Deployment](#development-and-deployment)
-  - [Content](#content)
-  - [Media](#media)
-  - [Credits](#credits)
-    - [For code inspiration, design inputs, help and advice. Many thanks to:](#for-code-inspiration-design-inputs-help-and-advice-many-thanks-to)
-    - [Great sources](#great-sources)
+# Table of Content <!-- omit in toc -->
+- [UX](#ux)
+  - [Strategy](#strategy)
+  - [User Stories](#user-stories)
+    - [Existing Members](#existing-members)
+    - [New Users](#new-users)
+  - [User Goals](#user-goals)
+  - [Scope](#scope)
+  - [Design](#design)
+    - [Typography](#typography)
+    - [Images](#images)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+    - [Header and Navigation Section](#header-and-navigation-section)
+    - [Hero Image Section](#hero-image-section)
+    - [About us Section](#about-us-section)
+    - [Category Section](#category-section)
+    - [Hack submission Section](#hack-submission-section)
+    - [Footer Section](#footer-section)
+    - [FormT-ack page](#formt-ack-page)
+  - [Features Left to Implement](#features-left-to-implement)
+- [Technologies used](#technologies-used)
+- [UX Stories Testing](#ux-stories-testing)
+  - [Bugs](#bugs)
+  - [Validator Testing](#validator-testing)
+- [Development and Deployment](#development-and-deployment)
+- [Content](#content)
+- [Media](#media)
+- [Credits](#credits)
+  - [For code inspiration, design inputs, help and advice. Many thanks to:](#for-code-inspiration-design-inputs-help-and-advice-many-thanks-to)
+  - [Great sources](#great-sources)
      
 ## UX
 
