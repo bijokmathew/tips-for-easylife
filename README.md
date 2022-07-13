@@ -49,7 +49,6 @@ A live version of the project can be found here -
     - [User Goals](#user-goals)
     - [Scope](#scope)
     - [Design](#design)
-      - [Colours](#colours)
       - [Typography](#typography)
       - [Images](#images)
   - [Features](#features)
@@ -137,13 +136,7 @@ As per business goals and user's needs, the below features included in the first
  Main aim is to create a clean looking website where there is a balance between colors, images and functionality.
 
  Tips For Esay Life website is a single page website divided in to three sections. Menu is fixed on top in order to ensure easy navigation between the sections.
-
-#### Colours
-
-The colour palette was created using [Coolors](https://fontawesome.com/).
-
-![Colour Palette](/assets/images/readme-images/colour-palette.png)
-
+ 
 #### Typography
 
 The [Google Font Open Sans]('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sansita&display=swap')was chosen as the main font with a fallback of Sans-Serif. Font weights of 300, 500 and 700 has been used on the website.
