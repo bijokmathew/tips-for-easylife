@@ -9,8 +9,8 @@ This website (Easy Life Tips) created to help people learn all sorts of differen
 This website has three sections:
 
  1. Home
- 2. Categories
- 3. Submit Your Hacks
+ 2. Category
+ 3. Submit Hacks
 
 ### The business goals of the website are:
 
