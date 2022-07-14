@@ -190,6 +190,7 @@ h2 {
     width: 20%;
     display: inline-block;
     vertical-align: bottom;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
@@ -402,9 +403,9 @@ footer {
 
     #abt-right {
         height: 250px;
-        width: 60%;
+        width: 100%;
         display: block;
-        text-align: right;
+        text-align: center;
         margin-top: 30px;
     }
 
@@ -474,7 +475,6 @@ footer {
 
     #abt-right {
         height: 300px;
-        width: 80%;
     }
 
     #abt-img {
@@ -532,6 +532,7 @@ footer {
 
     #abt-right {
         height: 300px;
+        margin-top:40px;
     }
 
     #cat-section {
