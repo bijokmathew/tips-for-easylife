@@ -227,6 +227,7 @@ h2 {
     margin: 2rem 1rem 2rem 0;
     display: inline-block;
     background-color: beige;
+    box-shadow: 5px 5px 2px hsl(60, 2%, 12%);
 }
 
 #cat-tech {
@@ -304,7 +305,7 @@ textarea {
     border-radius: 2px;
     font-size: 100%;
     font-weight: 700;
-    color:#312d2d;
+    color: #312d2d;
     text-align: center;
     background-color: #f3e54cd5;
     display: block;
@@ -367,7 +368,6 @@ footer {
         margin: 2rem 2rem 1rem 2rem;
         display: inline-block;
         background-color: beige;
-        box-shadow: 5px 5px 2px hsl(60, 2%, 12%);
     }
 
     #cat-health {
@@ -537,6 +537,7 @@ footer {
         font-size: 150%;
         margin-left: 14px;
     }
+
     #hero-cover-text {
         width: 80%;
         left: 10%;
