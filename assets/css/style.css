@@ -445,7 +445,11 @@ footer {
         font-size: 1.2em;
         float: right;
         padding: 5px;
+    }
 
+    nav label:hover{
+        background-color: #fafafa;
+        color: #f16c6b;
     }
 
     /* hide menu items */
