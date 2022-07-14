@@ -420,6 +420,8 @@ footer {
     #menu {
         width: 100%;
         margin-top: 0;
+        float: right;
+        background-color: #F5F0BB;
     }
 
     #menu li {
@@ -446,7 +448,6 @@ footer {
         float: right;
         padding: 5px;
     }
-
     nav label:hover{
         background-color: #fafafa;
         color: #f16c6b;
